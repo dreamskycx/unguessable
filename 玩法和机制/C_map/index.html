@@ -8,7 +8,7 @@
       
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../../logo.png">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.11">
     
     
@@ -125,8 +125,7 @@
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../.." title="不可译词Wiki" class="md-header__button md-logo" aria-label="不可译词Wiki" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+  <img src="../../logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -324,8 +323,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href="../.." title="不可译词Wiki" class="md-nav__button md-logo" aria-label="不可译词Wiki" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+  <img src="../../logo.png" alt="logo">
 
     </a>
     不可译词Wiki
@@ -495,6 +493,40 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    传送门链接
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    地图绘制规范
+  </a>
+  
+    <nav class="md-nav" aria-label="地图绘制规范">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    地图参数标准
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    绘制大小标准
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -517,6 +549,20 @@
     <li class="md-nav__item">
       <a href="../D_maplist/" class="md-nav__link">
         地图名单
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../E_boardmirror/" class="md-nav__link">
+        联赛公告镜像
       </a>
     </li>
   
@@ -805,6 +851,40 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    传送门链接
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    地图绘制规范
+  </a>
+  
+    <nav class="md-nav" aria-label="地图绘制规范">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    地图参数标准
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    绘制大小标准
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -828,9 +908,10 @@
 <h1 id="_1">地图机制</h1>
 <p>不可译词联赛依托于<strong>地图</strong>实现对战。</p>
 <h2 id="_2">地图的元素</h2>
-<p>地图由<strong>区域</strong>，和<strong>线</strong>组成。</p>
+<p>地图由<strong>区域</strong>，<strong>线</strong>，和<strong>传送门</strong>组成。</p>
 <p>区域：猜词方需要占领的地方，对于一张已知的公布地图，<strong>区域上会标注关键词</strong>。</p>
 <p>线：将区域进行链接，由单向线，双向线和枢纽线组成。</p>
+<p>传送门：地图上<strong>用特殊符号标记的区域</strong>，可将与传送门接触的区域链接。</p>
 <h2 id="_3">胜利规则</h2>
 <p><strong>将五个区域由同一方向的线进行连接即可获胜。</strong></p>
 <p><strong>若在若干局游玩后，地图上不存在这样的解法，所有猜测方失败。</strong></p>
@@ -844,6 +925,18 @@
 <p>对于两个<strong>有共同边</strong>的区域，这两个区域<strong>视作由双向线链接</strong>。</p>
 <h3 id="_8">枢纽线链接</h3>
 <p>对于枢纽线链接的区域，接出区域可以连接枢纽线链接的<strong>所有</strong>接入区域。</p>
+<h3 id="_9">传送门链接</h3>
+<p>所有与传送门<strong>有共同边</strong>的区域，区域和传送门为<strong>双向链接</strong>。</p>
+<p>对于和<strong>同一符号标记的传送门</strong>链接的区域，视为与<strong>相同传送门链接</strong>。</p>
+<p>因为传送门<strong>具有区域性质</strong>（在地图上亦如此表示），故同一符号标记的传送门在一条连线中<strong>仅可进出一次</strong>。</p>
+<h2 id="_10">地图绘制规范</h2>
+<p>对于一份地图，应该标记其<strong>中文名称，英文名称，标准图像大小，区域数量，地图类型，相关介绍</strong>等。</p>
+<h3 id="_11">地图参数标准</h3>
+<p>一份地图的参数，应该按照【标准图像大小】/【区域数量】/【地图类型】的格式编写。</p>
+<p>如：2000×2000/25/S</p>
+<p>其中地图类型分为S＝小型地图；M＝中型地图；L＝大型地图。</p>
+<h3 id="_12">绘制大小标准</h3>
+<p>单个正方形的区域大小必为282×282（像素）。</p>
 
 
 
